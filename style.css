@@ -1,0 +1,55 @@
+
+body {
+	text-align: center;
+}
+
+.game_table {
+	margin: auto;
+	width: 512px;
+	height: 512px;
+	border-spacing: 0px;
+}
+
+.game_table input.piece {
+	width: 64px;
+	height: 64px;
+	font-size: xx-large;
+	border-color: lightgray;
+	padding: 0px;
+}
+
+.game_table td {
+	padding: 0px;
+}
+
+.game_table input.piece {
+	border-color: #efefef;
+	background-color: #eeeeee;
+	color: #444444;
+}
+
+.game_table input.piece.hightlighted_row {
+	border-color: #00eeff;
+	background-color: #ddffff;
+	color: #005555;
+}
+
+.game_table input.piece.hightlighted_row:active {
+	border-color: #00eeff;
+	background-color: #bbdddd;
+	color: #005555;
+}
+
+.game_table input.piece.hightlighted_column {
+	border-color: #ff8844;
+	background-color: #ffeedd;
+	color: #663300;
+}
+
+.game_table input.piece.hightlighted_column:active {
+	border-color: #ff8844;
+	background-color: #ddccbb;
+	color: #663300;
+}
+
+
