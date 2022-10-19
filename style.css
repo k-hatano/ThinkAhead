@@ -28,6 +28,12 @@ body {
 	color: #444444;
 }
 
+.game_table input.piece.taken {
+	border-color: #f4f4f4;
+	background-color: #f8f8f8;
+	color: #444444;
+}
+
 .game_table input.piece.hightlighted_row {
 	border-color: #00eeff;
 	background-color: #ddffff;
@@ -52,4 +58,26 @@ body {
 	color: #663300;
 }
 
+.score {
+	display: inline-table;
+	width: 98px;
+	height: 64px;
+	padding: 0px 16px;
+}
 
+.score.score_first {
+	background-color: #bbdddd;
+	color: #005555;
+}
+
+.score.score_second {
+	background-color: #ddccbb;
+	color: #663300;
+}
+
+.score_value {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+	font-size: xx-large;
+}
